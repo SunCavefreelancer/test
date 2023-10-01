@@ -60,20 +60,20 @@ body {
     padding: 0px 20px;
 }
 .header {
-    position: fixed; /* Наша ШАПКА - HEADER будет ФИКСИРОВАННОЙ, т.е.при скроле она всеглда будет сверху кнотента */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 250;/* делаем большой z-index ЧТОБЫ поверх контента была шапка*/
+    z-index: 250;
 }
-/* --------------------создаем ПЛАШКУ РОЗОВОГО ЦВЕТА----------------------*/
-.header:before {/* создаем ПЛАШКУ */
+
+.header:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* т.е. на ВЕСЬ РАЗМЕР НАШЕЙ ШАПОЧКИ */
+    height: 100%; 
     /*background-color: #0E333D;*/
     z-index: 2;
 }
@@ -109,9 +109,9 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.menu-header-link { /* все ссылки отступы */
-    margin: 0px 0px 0px 36px; /* получилось */
-    font-size: 20px; /* если сделать шрифт меньше, СКРОЛА не будет */
+.menu-header-link { 
+    margin: 0px 0px 0px 36px;
+    font-size: 20px; 
 	font-family: 'Merriweather';
 	font-weight: 700;
 	line-height: 100%; /* 20px */
@@ -119,7 +119,7 @@ body {
 .menu-header-link:hover {
 	text-decoration: underline;
 }
-.menu-header-link1 {  /* задаем всем ссылкам размер, шрифт, цвет */
+.menu-header-link1 {  
     font-size: 20px;
 	font-family: 'Merriweather';
     color: #000;
