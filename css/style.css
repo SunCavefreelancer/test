@@ -241,7 +241,7 @@ body {
         height: 100%;
         overflow: auto; 
         transition: all 0.3s ease 0s;   
-        background-color: #a2a3a3;; 
+        background-color: #0E333D; 
         padding: 70px 10px 20px 10px;
     }
     .header-menu.active {
@@ -264,7 +264,7 @@ body {
 /* -- */
 
     .link-vip { 
-        color: #1b1b1b;
+        color: #abaaaa;
     }
     .link-vip:hover {
         color: blue;
