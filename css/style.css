@@ -90,7 +90,7 @@ body {
 .header-logo {
 	position: relative;
 	z-index: 2;
-	color: #000;
+	color: #fff;
 	font-family: 'Merriweather';
 	font-size: 30px;
 	font-style: italic;
@@ -102,7 +102,7 @@ body {
 .header-logo:hover {
 	cursor: pointer;
 	transition: 0.8s;
-	color: rgb(10, 35, 36);
+	color: rgb(139, 139, 139);
 }
 
 .header-list {
@@ -118,19 +118,19 @@ body {
 	font-weight: 700;
 	line-height: 100%; /* 20px */
 }
-.menu-header-link:hover {
+.menu-header-link1:hover {
 	text-decoration: underline;
 }
 .menu-header-link1 {  
     font-size: 20px;
 	font-family: 'Merriweather';
-    color: #000;
+	color: #fff;
     line-height: 100%;
 }
 .link-vip {
 	font-weight: 900;
 	font-family: 'Merriweather';
-    color: #000;
+    color: #afaeae;
 }
 .link-vip:hover {
     cursor: pointer;
@@ -147,7 +147,7 @@ body {
 	font-weight: 700;
 	line-height: 100%;
 	border-radius: 5px;
-	background-color: #0E333D;
+	border: 1px solid rgb(246, 248, 248);
 	padding: 12px 29px 14px 26px;
 }
 .login:hover {
@@ -192,7 +192,7 @@ body {
 	.header-burger:before,
 	.header-burger:after {
 		content: "";
-		background-color: #0e1715;
+		background-color: #fdfefe;
 		position: absolute;
 		width: 100%;
 		height: 2px;
@@ -211,7 +211,7 @@ body {
 
 	.header-burger span {
 		position: absolute;
-		background-color: #0e1715;
+		background-color: #fdfefe;
 		position: absolute;
 		left: 0;
 		width: 100%;
@@ -258,12 +258,13 @@ body {
 
     .header-list li {
     font-size: 35px; 
+	text-transform: uppercase;
     }
 
 /* -- */
 
     .link-vip { 
-        color: #fff;
+        color: #1b1b1b;
     }
     .link-vip:hover {
         color: blue;
@@ -287,7 +288,6 @@ body {
 		font-weight: 700;
 		line-height: 100%;
 		border-radius: 5px;
-		background-color: #0E333D;
 		padding: 12px 29px 14px 26px;
 	}
 
@@ -333,7 +333,7 @@ body {
 	align-items: center;
 }
 .page-individual-jewelry-design-left-button {
-	color: #FFF;
+	color: #fff;
 	font-family: 'DM Serif Text';
 	font-size: 25px;
 	line-height: 100%; /* 28px */
@@ -350,7 +350,8 @@ body {
 	gap: 10px;
 }
 .page-individual-jewelry-design-left-button:hover {
-	background-color: #f8f9fa;
+	transition: 0.8s;
+	cursor: pointer;
 }
 .page-individual-jewelry-design-left-video {
 	color: #0E333D;
@@ -361,7 +362,8 @@ body {
 	padding: 10px 44px;
 }
 .page-individual-jewelry-design-left-video:hover {
-	color: #f8f9fa;
+	cursor: pointer;
+	transition: 0.8s;
 }
 
 .page-individual-jewelry-design-right {
@@ -426,9 +428,11 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 127%; /* 22.86px */
-	text-decoration: underline;
 }
-
+.page-products-link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
 /* ------ */
 .page-products-columns {
 	display: flex;
