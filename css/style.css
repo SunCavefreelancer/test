@@ -66,9 +66,14 @@ body {
     left: 0;
     z-index: 250;
 	height: 106px;
-	background-color: #0E333D;
+	background-color: #517a30;
 }
 
+@media (max-width:825px){
+	.header {
+		height: 60px;
+	}
+}
 .header:before {
     content: "";
     position: absolute;
@@ -102,7 +107,7 @@ body {
 .header-logo:hover {
 	cursor: pointer;
 	transition: 0.8s;
-	color: rgb(139, 139, 139);
+	color: #0c0b0b;;
 }
 
 .header-list {
@@ -130,7 +135,7 @@ body {
 .link-vip {
 	font-weight: 900;
 	font-family: 'Merriweather';
-    color: #afaeae;
+    color: #0E333D;
 }
 .link-vip:hover {
     cursor: pointer;
@@ -241,7 +246,7 @@ body {
         height: 100%;
         overflow: auto; 
         transition: all 0.3s ease 0s;   
-        background-color: #0E333D; 
+        background-color: #517a30; 
         padding: 70px 10px 20px 10px;
     }
     .header-menu.active {
@@ -264,10 +269,10 @@ body {
 /* -- */
 
     .link-vip { 
-        color: #abaaaa;
+        color: #0E333D;
     }
     .link-vip:hover {
-        color: blue;
+        color: rgb(5, 67, 12);
         cursor: pointer;
         transition: 0.7s;
     }
@@ -299,26 +304,65 @@ body {
 /* ========================================================= */
 .page-individual-jewelry-design {
 	padding: 206px 0px 50px 0px;
-	margin-bottom: 140px;
+	margin-bottom: 120px;
+}
+@media (max-width:1185px){
+	.page-individual-jewelry-design {
+		padding: 186px 0px 50px 0px;
+		margin-bottom: 50px;
+	}
+}
+@media (max-width:1000px){
+	.page-individual-jewelry-design {
+		padding: 186px 0px 50px 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (max-width:600px){
+	.page-individual-jewelry-design {
+		padding: 150px 0px 50px 0px;
+		margin-bottom: 0px;
+	}
 }
 
 .page-individual-jewelry-design-box {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .page-individual-jewelry-design-left {
 	flex: 0 1 50%;
 	max-width: 577px;
 	margin-right: 48px;
-
 }
+@media (max-width:1185px){
+	.page-individual-jewelry-design-left {
+		margin: 0 auto;
+		flex: 0 1 100%;
+	}
+}
+
 .page-individual-jewelry-design-left h1 {
 	color: #0E333D;
 	font-family: 'DM Serif Text';
 	font-size: 78px;
 	line-height: 127%; /* 99.06px */
 	margin-bottom: 32px;
-
+}
+@media (max-width:1185px){
+	.page-individual-jewelry-design-left h1 {
+		font-size: 65px;
+	}
+}
+@media (max-width:600px){
+	.page-individual-jewelry-design-left h1 {
+		font-size: 50px;
+	}
+}
+@media (max-width:460px){
+	.page-individual-jewelry-design-left h1 {
+		font-size: 37px;
+	}
 }
 .page-individual-jewelry-design-left-title {
 	max-width: 577px;
@@ -327,11 +371,24 @@ body {
 	line-height: 148%; /* 32.56px */
 	margin-bottom: 48px;
 }
+@media (max-width:600px){
+	.page-individual-jewelry-design-left-title {
+		max-width: 577px;
+		font-size: 18px;
+	}
+}
+@media (max-width:460px){
+	.page-individual-jewelry-design-left-title {
+		font-size: 16px;
+	}
+}
 
 .page-individual-jewelry-design-left-box-down {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
+
 .page-individual-jewelry-design-left-button {
 	color: #fff;
 	font-family: 'DM Serif Text';
@@ -339,7 +396,7 @@ body {
 	line-height: 100%; /* 28px */
 
 	border-radius: 5px;
-	background-color: #0E333D;
+	background-color: #517a30;
 
 	display: flex;
 	justify-content: center;
@@ -353,6 +410,26 @@ body {
 	transition: 0.8s;
 	cursor: pointer;
 }
+@media (max-width:470px){
+	.page-individual-jewelry-design-left-button {
+		color: #fff;
+		font-family: 'DM Serif Text';
+		font-size: 18px;
+		line-height: 100%; /* 28px */
+	
+		border-radius: 5px;
+		background-color: #517a30;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 177px;
+		height: 42px;
+		padding: 8px 30px;
+		margin-bottom: 20px;
+	}
+}
+
 .page-individual-jewelry-design-left-video {
 	color: #0E333D;
 	font-family: 'DM Serif Text';
@@ -364,14 +441,38 @@ body {
 .page-individual-jewelry-design-left-video:hover {
 	cursor: pointer;
 	transition: 0.8s;
+	color: #517a30;
+}
+@media (max-width:470px){
+	.page-individual-jewelry-design-left-video {
+		color: #517a30;
+		font-family: 'DM Serif Text';
+		width: 177px;
+		height: 42px;
+		padding: 8px 30px;
+		font-size: 20px;
+	}
 }
 
+/* -- */
 .page-individual-jewelry-design-right {
 	flex: 0 1 50%;
 	display: flex;
 	max-width: 525px;
 }
-
+@media (max-width:1185px){
+	.page-individual-jewelry-design-right {
+      margin: 0 auto;
+	  margin-top: 50px;
+	}
+}
+@media (max-width:441px){
+	.page-individual-jewelry-design-right {
+      flex-direction: column;
+	  margin-top: 0px;
+	}
+}
+/* -- */
 .page-individual-jewelry-design-right-img {
 	margin-right: 32px;
 	width: 246px;
@@ -379,20 +480,66 @@ body {
 	flex-shrink: 0;
 	margin-top: 67px;
 }
+@media (max-width:600px){
+	.page-individual-jewelry-design-right-img {
+		margin-right: 32px;
+		width: 180px;
+		height: 350px;
+		flex-shrink: 0;
+		margin-top: 20px;
+	}
+}
+@media (max-width:441px){
+	.page-individual-jewelry-design-right-img {
+		margin-right: 32px;
+		width: 246px;
+		height: 450px;
+		padding: 0px 0px 40px 0px;
+	}
+}
+/* -- */
 .page-individual-jewelry-design-right-imgg {
 	width: 246px;
-	height: 468px;
+	height: 450px;
 	flex-shrink: 0;
 }
-
+@media (max-width:600px){
+	.page-individual-jewelry-design-right-imgg {
+		margin-right: 32px;
+		width: 180px;
+		height: 350px;
+		flex-shrink: 0;
+	}
+}
+@media (max-width:441px){
+	.page-individual-jewelry-design-right-imgg {
+		margin-right: 32px;
+		width: 246px;
+		height: 450px;
+	}
+}
 
 
 /* =============================page-products================================ */
 .page-products {
 	padding: 94px 0px;
-	background-color: #0E333D;
+	background-color: #517a30;
 	margin-bottom: 140px;
 }
+@media (max-width:1200px){
+	.page-products {
+		padding: 94px 0px;
+		background-color: #517a30;
+		margin-bottom: 0px;
+	}
+}
+@media (max-width:385px){
+	.page-products {
+		padding: 70px 0 50px 0px;
+		margin-bottom: 0px;
+	}
+}
+
 .page-products-conteiner h2{
 	text-align: center;
 	color: #FFF;
@@ -401,9 +548,24 @@ body {
 	line-height: 127%; /* 60.96px */
 	margin-bottom: 23px;
 }
+@media (max-width:385px){
+	.page-products-conteiner h2{
+		text-align: center;
+		color: #FFF;
+		font-family: 'DM Serif Text';
+		font-size: 30px;
+		line-height: 127%; /* 60.96px */
+		margin-bottom: 23px;
+	}
+}
 
 .page-products-text {
 	margin-bottom: 77px;
+}
+@media (max-width:600px){
+	.page-products-text {
+		margin-bottom: 30px;
+	}
 }
 .page-products-title {
 	text-align: center;
@@ -421,6 +583,11 @@ body {
 }
 .page-products-list >*:not(:last-child) {
 	margin-right: 41px;
+}
+@media (max-width:385px){
+	.page-products-link {
+		padding: 0px 0px 20px 0px;
+	}
 }
 .page-products-link {
 	color: #FFF;
