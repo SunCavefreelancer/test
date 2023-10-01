@@ -65,6 +65,8 @@ body {
     top: 0;
     left: 0;
     z-index: 250;
+	height: 106px;
+	background-color: #0E333D;
 }
 
 .header:before {
@@ -74,7 +76,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%; 
-    /*background-color: #0E333D;*/
+    /**/
     z-index: 2;
 }
 .header-body { 
